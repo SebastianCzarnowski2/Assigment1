@@ -1,0 +1,81 @@
+/* some simple styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+.all {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    height: 10%;
+    background-color: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+}
+
+button {
+    background-color: transparent;
+    padding: 3px 10px;
+    color: #DEF2F1;
+    border: 2px solid #DEF2F1;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+input {
+    margin-right: 10px;
+    border: none;
+    font-size: 14px;
+    border-bottom: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    color: white;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.weatherconatiner {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherconatiner ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.weatherconatiner ul li {
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
